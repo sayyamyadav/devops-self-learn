@@ -1,0 +1,26 @@
+
+Go to https://console.aws.amazon.com/
+Signup/Signin using your credentials
+Go to EC2 service
+Click on Launch Instance
+Name and tags
+Fill in the name, e.g. test_server
+Application and OS Images
+Choose OS, e.g. Ubuntu
+Key pair
+Click on Create new key pair
+Fill in the Key pair name, e.g. test_window
+Choose .pem
+Click create Create key pair button to download the .pem file
+Network settings
+Choose Create security group
+Check Allow SSH traffic from Anywhere 0.0.0.0
+Check Allow HTTPS traffic from the Internet
+Check Allow HTTP traffic from the Internet
+Configure storage
+Fill 30 GiB. You can choose a maximum of 30GB EC2 instance on Free Tier
+Choose gp3 from the dropdown
+Click on the Launch Instance button
+Congratulations! You have success fully initiated launch of an EC2 instance. You'll be redirected to Success page
+Scroll down and click on View all instances
+You'll be redirected to a list of your instances. Once the Instance state and _Status check_changes to Running and 2/2 checks passed, then click on the Instance ID corresponding to your newly created instance
