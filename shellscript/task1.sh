@@ -28,3 +28,9 @@ cd src
 # print the current directory yo are at
 #
 pwd
+
+
+###
+#for list out all the file we can use 
+#
+ls -ltr
