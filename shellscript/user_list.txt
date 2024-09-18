@@ -1,3 +1,7 @@
-sam
-shreya 
-sakshi
+ How do you read iwhile IFS= read -r line; do
+    # Process each line here
+done < input.txtnput from a file line by line in a shell script? How do you read input from a file line by line in a shell script? How do you read input from a file line by line in a shell script? How do you read input from a file line by line in a shell script?
+
+Write a script for scp by demonstratinging remote login and file transfer functionsWrite a script for scp by demonstratinging remote login and file transfer functionsWrite a script for scp by demonstratinging remote login and file transfer functions Knowledge about ssh and scp commands.while IFS= read -r line; do
+    # Process each line here
+done < input.txtWrite a script for scp by demonstratinging remote login and file transfer functionsWrite a script for scp by demonstratinging remote login and file transfer functionsWrite a script for scp by demonstratinging remote login and file transfer functions
