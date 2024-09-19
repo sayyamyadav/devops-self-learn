@@ -1,6 +1,0 @@
-buy pen
-bcd
-buy coffew
-bcd
-abc
-bcd
