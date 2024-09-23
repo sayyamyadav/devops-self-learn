@@ -11,7 +11,7 @@ currentDate="$(date +%Y-%m-%d)"
 #
 ## Check if the directory exists
 if [ ! -d "$dir_path" ]; then #### if directory does'nt exsist then this conditonn will execute
-    echo "Error: Directory '$path' does not exist."
+    echo "Error: Directory '$dir_path' does not exist."
         exit 1
         fi
 #
@@ -22,7 +22,7 @@ if [ ! -d "$dir_path" ]; then #### if directory does'nt exsist then this condito
         backup_for_dir="$HOME"
 #
 #        # Create the backup
-        tar -czf "$backup_for_dir/$current_file_backup" -C "$(dirname "$path")" "$(basename "$path")"
+        tar -czf "$backup_for_dir/$current_file_backup" -C "$(dirname "$dir_path")" "$(basename "$dir_path")"
 #
 #        # Check if the tar command was successful
         if [ $? -eq 0 ]; then

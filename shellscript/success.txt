@@ -1,0 +1,2 @@
+Enter the path of the directory you want to create a backup of:
+Error: Directory '/hojfdjb/' does not exist.
