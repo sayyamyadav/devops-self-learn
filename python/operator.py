@@ -132,3 +132,46 @@ bitwise operators are used to perform operations at the binary level (i.e., bit 
 '''
 
 print("==========================Bitwise operator==================")
+ 
+print("bitwise &")
+
+print(18 & 3) #bitiwise binary
+print(bin(18))
+print(bin(18 & 3))
+
+
+print("bitwise or")
+
+print(3 | 5)
+
+print(bin(3 | 5))
+
+print("=================negation operator==( ~ )==============")
+print(~-99)
+
+
+print("bitwise xor operator ===================(^)================")
+#it woll return one when exactly one is true not both 
+print(5 ^ 3)
+print(bin(5 ^ 3))
+
+
+print("left shift operator============================<<")
+
+print(5 << 3)
+
+print(bin(5))
+
+print(bin(40))
+
+print("right shift operator===================>>")
+
+print(40 >> 3)
+
+
+print(bin(40))
+print(bin(5))
+
+print(" order of precedence===============paranthesis prortize first========")
+
+print((10 + 4)-(10/2))
