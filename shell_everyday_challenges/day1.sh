@@ -56,7 +56,7 @@ read -p "Enter the directory path: " path
 if [ -d $path ]; then
 	echo "$path directory exsit"
 	read -p "enter any file extenstion like .txt,.jgp and many more  to check all th files" ext
-	echo "$(ls -t *$ext)"
+	echo "$(ls -t *${ext})"
 else
 	echo "$path does'nt exist anywhere"
 fi
