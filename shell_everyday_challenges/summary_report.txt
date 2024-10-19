@@ -1,0 +1,8 @@
+Date of Analysis: 2024-10-17 06:42:17
+LogFileName: sample_log.log
+Total lines processed : 20
+Total error count : 0
+Top 5 error messages with their occurrence count:
+
+List of critical events with line numbers:
+18 2024-10-16 10:01:00 my_process failed to start after 5 attempts. Manual intervention is required.

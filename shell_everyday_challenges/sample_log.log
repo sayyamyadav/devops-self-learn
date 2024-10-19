@@ -1,0 +1,20 @@
+2024-10-16 10:00:00 Process monitor started.
+2024-10-16 10:00:05 my_process is not running.
+2024-10-16 10:00:06 Attempting to restart my_process...
+2024-10-16 10:00:08 my_process has started successfully.
+2024-10-16 10:00:15 my_process is running.
+2024-10-16 10:00:20 my_process is not running.
+2024-10-16 10:00:21 Attempting to restart my_process...
+2024-10-16 10:00:23 my_process has failed to start.
+2024-10-16 10:00:30 my_process is not running.
+2024-10-16 10:00:31 Attempting to restart my_process...
+2024-10-16 10:00:33 my_process has failed to start.
+2024-10-16 10:00:40 my_process is not running.
+2024-10-16 10:00:41 Attempting to restart my_process...
+2024-10-16 10:00:43 my_process has failed to start.
+2024-10-16 10:00:50 my_process is not running.
+2024-10-16 10:00:51 Attempting to restart my_process...
+2024-10-16 10:00:53 my_process has failed to start.
+2024-10-16 10:01:00 my_process failed to start after 5 attempts. Manual intervention is required.
+
+
