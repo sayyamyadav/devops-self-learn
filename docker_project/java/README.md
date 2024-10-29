@@ -26,3 +26,10 @@ To build the Docker image, navigate to the project directory containing the `Doc
 
 ```bash
 docker build -t java-app:latest .
+## Running the Docker Container
+```bash
+
+docker run java-app:latest
+
+sql
+Hello, Docker! Current date: <current_date>
